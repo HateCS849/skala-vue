@@ -178,7 +178,7 @@ skala-vue/
 6. Vitest·Vue Test Utils 테스트
 7. `<Teleport>` 도시 상세 모달: `weather-modern/src/components/CityDetailModal.vue`
 
-### TanStack Vue Query 캐시·서버 상태 관리
+### 새로운 기술에 대한 짧은 설명
 
 1. Composable 분리 (`useWeatherDashboard.ts`) — 컴포넌트 안에 흩어진 로직(데이터 가져오기, 상태 관리)을 따로 빼서 재사용하고, 컴포넌트는 화면 표시에만 집중하게 만들 때 사용됩니다.
 2. TanStack Vue Query 캐시·서버 상태 관리 — 서버에서 받아온 데이터를 화면에 보여줄 때, 같은 데이터를 여러 컴포넌트에서 공유해야 할 때, 그리고 로딩·에러 처리나 재시도, 포커스 시 자동 갱신 같은 걸 매번 직접 구현하기 귀찮을 때 주로 사용된다고 합니다.
