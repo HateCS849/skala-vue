@@ -1,0 +1,63 @@
+:root {
+  --brand-50: #eef4ff;
+  --brand-100: #d9e5fe;
+  --brand-200: #b5ccfd;
+  --brand-300: #84a8fa;
+  --brand-400: #4d7df4;
+  --brand-500: #2256e6;
+  --brand-600: #1742c6;
+  --brand-700: #12349c;
+  --brand-800: #0e2877;
+  --brand-900: #081a52;
+  --brand-950: #050f35;
+  --ink-0: #ffffff;
+  --ink-50: #f7f8fa;
+  --ink-100: #eff1f4;
+  --ink-200: #e2e5ea;
+  --ink-300: #c9ced6;
+  --ink-400: #9098a4;
+  --ink-500: #6b7280;
+  --ink-600: #4b5563;
+  --ink-700: #2c3340;
+  --ink-800: #1a1f2b;
+  --ink-900: #0e1320;
+  --ink-950: #060912;
+  --color-background: var(--ink-50);
+  --color-background-soft: var(--ink-0);
+  --color-background-mute: var(--ink-100);
+  --color-border: var(--ink-200);
+  --color-border-hover: var(--ink-300);
+  --color-heading: var(--ink-900);
+  --color-text: var(--ink-700);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html {
+  background: var(--color-background);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family:
+    Roboto,
+    'Pretendard Variable',
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
